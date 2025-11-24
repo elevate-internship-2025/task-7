@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>User Directory — Fetch API Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Aurora Users</div>
+    <button id="reloadBtn" class="btn secondary">Reload</button>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <h1>User Directory</h1>
+      <p>This list is fetched live from a public API using the JavaScript Fetch API.</p>
+    </section>
+
+    <section class="status-section">
+      <div id="status" class="status">Click "Reload" to load users.</div>
+    </section>
+
+    <section class="users-section">
+      <div id="userList" class="user-list">
+        <!-- User cards will be injected here via JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Task 7 - Fetch API 
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
